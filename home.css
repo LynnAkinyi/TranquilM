@@ -1,8 +1,11 @@
+* {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
 body {
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 1, 0.5),
+      rgba(0, 0, 1, 0.5)
     ),
     url("images/calm.jpg");
   background-size: cover;
@@ -10,26 +13,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/*ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #efe4c6;
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .navigation,
+  .main,
+  .sidebar {
+    width: 100%;
+  }
 }
-li {
-  float: right;
+.logo img {
+  float: left;
+  width: 15vw;
+  height: 15vw;
 }
-
-li a {
-  display: block;
-  color: #160c01;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #70420c;
-}
-*/
